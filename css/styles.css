@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  font-family: arial,sans-serif;
+  text-align: center;
+  background-color: #202124;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  color: #fff;
+}
+p{
+  padding-top: 2em;
+  font-size: .8rem;
+}
+p>a{
+  color: #8AB4F8;
+  margin-right: .3em;
+}
+/* ======Navigation====== */
+nav{
+  height: 48px;
+  padding-top: 1em;
+  text-align: right;
+}
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  float: right;
+  margin-right: 1em;
+  font-size: .8rem;
+}
+.txt{
+  padding-bottom: 1em;
+  margin: 0 .3em;
+  text-decoration: none;
+  color: #fff;
+}
+.txt:hover{
+  text-decoration: underline;
+}
+/* ------Nav Images------ */
+.gridimg{
+  width: 30px;
+}
+.gridimg{
+  width: 30px;
+  margin:0 .4em;
+  border-radius: 100%;
+}
+/* ------Body Conntainer------ */
+.google-search{
+  position: relative;
+  align-items: center;
+  top: 2em;
+}
+#searchbox{
+  width: 500px;
+  background-color: transparent;
+  outline: none;
+  color: #000;
+  border: 0;
+  padding:1em .5em;
+  font-size: .8rem;
+}
+.googleinput:hover{
+  border:solid 2px #fff;
+  background-color: rgb(223, 211, 211);
+}
+.googleinput:focus{
+  background-color: #fff;
+  border:solid 2px #fff;
+}
+.search{
+  margin: .5em;
+  width: 17px;
+}
+.googleinput{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin:3em auto 2em;
+  width: 550px;
+  border: solid 2px #33353a ;
+  padding:0 0 0 ;
+  border-radius: 2.5em;
+}
+#mic{
+  width: 15px;
+  cursor: pointer;
+  margin: .5em;
+}
+.googlelogo{
+  cursor: pointer;
+}
+/* ------Button------ */
+.but{
+  margin-right: 1.5em;
+  padding: .7em 1.5em;
+  background-color: #303134;
+  color: #fff;
+  border-radius: .5em;
+  border: solid 2px #303134;
+  cursor: pointer;
+}
+.but:hover{
+  border: solid 2px rgb(109, 104, 104);
+  cursor: pointer;
+}
